@@ -1,0 +1,24 @@
+{
+    "type": "module",
+    "dependencies": {
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc --watch",
+        "start": "node ./src/index.ts",
+        "dev": "node --watch ./src/index.ts",
+        "01": "tsx ./src/01.file.ts",
+        "02": "tsx ./src/02.async.ts",
+        "03": "tsx ./src/03.promise.ts",
+        "04": "tsx ./src/04.timer.ts",
+        "05": "tsx ./src/05.callback-promise.ts",
+        "easy.highest-atittude": "tsx ./leetcode/easy.highest-atittude.ts"
+    }
+}
